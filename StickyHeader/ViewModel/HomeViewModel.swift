@@ -9,4 +9,5 @@ import SwiftUI
 
 class HomeViewModel: ObservableObject {
     @Published var offset: CGFloat = 0
+    @Published var selectTab = tabItems.first!.name
 }
