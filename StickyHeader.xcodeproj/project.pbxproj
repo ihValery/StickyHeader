@@ -11,6 +11,11 @@
 		806A212E269B3C2400D563E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A212D269B3C2400D563E5 /* ContentView.swift */; };
 		806A2130269B3C2A00D563E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806A212F269B3C2A00D563E5 /* Assets.xcassets */; };
 		806A2133269B3C2A00D563E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806A2132269B3C2A00D563E5 /* Preview Assets.xcassets */; };
+		806A213F269B3E3100D563E5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A213E269B3E3100D563E5 /* Home.swift */; };
+		806A2141269B3EB700D563E5 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A2140269B3EB700D563E5 /* Furniture.swift */; };
+		806A2145269B44D200D563E5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A2144269B44D100D563E5 /* CardView.swift */; };
+		806A2147269B50F600D563E5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A2146269B50F600D563E5 /* HeaderView.swift */; };
+		806A2149269B544800D563E5 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A2148269B544800D563E5 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		806A212F269B3C2A00D563E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806A2132269B3C2A00D563E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		806A2134269B3C2A00D563E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806A213E269B3E3100D563E5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		806A2140269B3EB700D563E5 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
+		806A2144269B44D100D563E5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		806A2146269B50F600D563E5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		806A2148269B544800D563E5 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				806A212B269B3C2400D563E5 /* StickyHeaderApp.swift */,
-				806A212D269B3C2400D563E5 /* ContentView.swift */,
-				806A212F269B3C2A00D563E5 /* Assets.xcassets */,
-				806A2134269B3C2A00D563E5 /* Info.plist */,
-				806A2131269B3C2A00D563E5 /* Preview Content */,
+				806A213B269B3DE400D563E5 /* Model */,
+				806A213C269B3DF300D563E5 /* ViewModel */,
+				806A213D269B3DFC00D563E5 /* View */,
+				806A213A269B3D7000D563E5 /* System32 */,
 			);
 			path = StickyHeader;
 			sourceTree = "<group>";
@@ -67,6 +77,43 @@
 				806A2132269B3C2A00D563E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		806A213A269B3D7000D563E5 /* System32 */ = {
+			isa = PBXGroup;
+			children = (
+				806A212F269B3C2A00D563E5 /* Assets.xcassets */,
+				806A2134269B3C2A00D563E5 /* Info.plist */,
+				806A2131269B3C2A00D563E5 /* Preview Content */,
+			);
+			path = System32;
+			sourceTree = "<group>";
+		};
+		806A213B269B3DE400D563E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				806A2140269B3EB700D563E5 /* Furniture.swift */,
+				806A2148269B544800D563E5 /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		806A213C269B3DF300D563E5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		806A213D269B3DFC00D563E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				806A212D269B3C2400D563E5 /* ContentView.swift */,
+				806A213E269B3E3100D563E5 /* Home.swift */,
+				806A2146269B50F600D563E5 /* HeaderView.swift */,
+				806A2144269B44D100D563E5 /* CardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +186,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				806A212E269B3C2400D563E5 /* ContentView.swift in Sources */,
+				806A2147269B50F600D563E5 /* HeaderView.swift in Sources */,
+				806A213F269B3E3100D563E5 /* Home.swift in Sources */,
+				806A2141269B3EB700D563E5 /* Furniture.swift in Sources */,
 				806A212C269B3C2400D563E5 /* StickyHeaderApp.swift in Sources */,
+				806A2145269B44D200D563E5 /* CardView.swift in Sources */,
+				806A2149269B544800D563E5 /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +320,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"StickyHeader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StickyHeader/System32/Preview Content\"";
 				DEVELOPMENT_TEAM = 879U287R5Q;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = StickyHeader/Info.plist;
+				INFOPLIST_FILE = StickyHeader/System32/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +342,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"StickyHeader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StickyHeader/System32/Preview Content\"";
 				DEVELOPMENT_TEAM = 879U287R5Q;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = StickyHeader/Info.plist;
+				INFOPLIST_FILE = StickyHeader/System32/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
