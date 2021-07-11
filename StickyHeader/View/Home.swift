@@ -45,6 +45,7 @@ struct Home: View {
                             
                             Text(item.name)
                                 .font(.title2.bold())
+                                .foregroundColor(.purpleApp)
                                 .padding(.leading, 20)
                                 .padding(.bottom)
                             

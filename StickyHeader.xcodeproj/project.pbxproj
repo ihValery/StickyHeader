@@ -17,6 +17,7 @@
 		806A2147269B50F600D563E5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A2146269B50F600D563E5 /* HeaderView.swift */; };
 		806A2149269B544800D563E5 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A2148269B544800D563E5 /* Tab.swift */; };
 		806A214B269B6A1400D563E5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A214A269B6A1400D563E5 /* HomeViewModel.swift */; };
+		806A214E269B8A5F00D563E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A214D269B8A5F00D563E5 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		806A2146269B50F600D563E5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		806A2148269B544800D563E5 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		806A214A269B6A1400D563E5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		806A214D269B8A5F00D563E5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				806A213B269B3DE400D563E5 /* Model */,
 				806A213C269B3DF300D563E5 /* ViewModel */,
 				806A213D269B3DFC00D563E5 /* View */,
+				806A214C269B8A4E00D563E5 /* Extension */,
 				806A213A269B3D7000D563E5 /* System32 */,
 			);
 			path = StickyHeader;
@@ -117,6 +120,14 @@
 				806A2144269B44D100D563E5 /* CardView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		806A214C269B8A4E00D563E5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				806A214D269B8A5F00D563E5 /* Color.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 				806A212C269B3C2400D563E5 /* StickyHeaderApp.swift in Sources */,
 				806A2145269B44D200D563E5 /* CardView.swift in Sources */,
 				806A2149269B544800D563E5 /* Tab.swift in Sources */,
+				806A214E269B8A5F00D563E5 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

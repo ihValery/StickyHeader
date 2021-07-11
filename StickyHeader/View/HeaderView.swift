@@ -18,7 +18,7 @@ struct HeaderView: View {
                     Image(systemName: "arrow.left")
                         .font(.title2.bold())
                         .frame(width: getSize(), height: getSize())
-                        .foregroundColor(.primary)
+                        .foregroundColor(.purpleApp)
                 })
                 Text("Sticky Header")
                     .font(.title)
@@ -41,6 +41,26 @@ struct HeaderView: View {
                     .font(.caption)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 })
+                .opacity(homeData.offset > 200 ? 1 - Double((homeData.offset - 200) / 50) : 1)
+                
+                //Кастомный ScrollView
+                ScrollView(.horizontal, showsIndicators: false, content: {
+                    HStack(spacing: 0) {
+                        ForEach(tabItems) { item in
+                            Text(item.name)
+                                .font(.caption)
+                                .padding(.vertical, 10)
+                                .padding(.horizontal)
+                                .background(Color.orangeApp
+                                                .opacity(homeData.selectTab == item.name ? 1 : 0))
+                                .clipShape(Capsule())
+                                .foregroundColor(homeData.selectTab == item.name ? .white : .purpleApp)
+                        }
+                    }
+                })
+                
+                //Виден только при прокрутке вверх
+                .opacity(homeData.offset > 200 ? Double((homeData.offset - 200) / 50) : 0)
             }
             .frame(height: 60)
             
@@ -50,6 +70,7 @@ struct HeaderView: View {
                 Divider().hidden()
             }
         }
+        .foregroundColor(.purpleApp)
         .padding(.horizontal)
         .frame(height: 100)
         .background(Color.white)
@@ -57,13 +78,10 @@ struct HeaderView: View {
     
     //Получение размера кнопки и создание анимации
     private func getSize() -> CGFloat {
-        if homeData.offset > 200 {
-            let progress = (homeData.offset - 200) / 50
-            
-            return progress <= 1 ? progress * 40 : 40
-        } else {
-            return 0
-        }
+        guard homeData.offset > 200 else { return 0 }
+        let progress = (homeData.offset - 200) / 50
+        
+        return progress <= 1 ? progress * 40 : 40
     }
 }
 

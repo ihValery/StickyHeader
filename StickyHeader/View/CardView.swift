@@ -31,6 +31,7 @@ struct CardView: View {
                 .cornerRadius(13)
         }
         .padding(.leading)
+        .foregroundColor(.purpleApp)
         .overlay(RoundedRectangle(cornerRadius: 13)
                     .stroke(Color.gray.opacity(0.3)))
         .padding(.horizontal)
