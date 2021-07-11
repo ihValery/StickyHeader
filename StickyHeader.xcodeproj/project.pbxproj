@@ -16,6 +16,7 @@
 		806A2145269B44D200D563E5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A2144269B44D100D563E5 /* CardView.swift */; };
 		806A2147269B50F600D563E5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A2146269B50F600D563E5 /* HeaderView.swift */; };
 		806A2149269B544800D563E5 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A2148269B544800D563E5 /* Tab.swift */; };
+		806A214B269B6A1400D563E5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A214A269B6A1400D563E5 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		806A2144269B44D100D563E5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		806A2146269B50F600D563E5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		806A2148269B544800D563E5 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		806A214A269B6A1400D563E5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		806A213C269B3DF300D563E5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				806A214A269B6A1400D563E5 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				806A212E269B3C2400D563E5 /* ContentView.swift in Sources */,
 				806A2147269B50F600D563E5 /* HeaderView.swift in Sources */,
 				806A213F269B3E3100D563E5 /* Home.swift in Sources */,
+				806A214B269B6A1400D563E5 /* HomeViewModel.swift in Sources */,
 				806A2141269B3EB700D563E5 /* Furniture.swift in Sources */,
 				806A212C269B3C2400D563E5 /* StickyHeaderApp.swift in Sources */,
 				806A2145269B44D200D563E5 /* CardView.swift in Sources */,
