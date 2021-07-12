@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Lyrra Chair",
+        "category": "chair",
+        "id": 0,
+        "isFavorite": false,
+        "description": "Ergonomical for humans body curve. The beautiful Egg chair by Arne Jacobsen is made even prettier and slightly more comfortable with the matching footrest. Arne Jacobsen designed Egg for the lobby and reception areas at the SAS Royal Hotel in Copenhagen. Decorate this classic lightweight armchair with a footrest for a homey, comfortable and beautiful experience. When Arne Jacobsen designed the SAS Royal Hotel in Copenhagen in the late 1950s, he also created the Egg, Swan, Swan sofa, 3300 Series and Drop. With this furniture, Arne Jacobsen rewrote the history of Danish design around the world.",
+        "images": ["chair1red", "chair1brown", "chair1green", "chair1orange"],
+        "price": 250.0
+    },
+    {
+        "name": "Retro Round",
+        "category": "chair",
+        "id": 1,
+        "isFavorite": false,
+        "description": "Seating Moder retro Round - Chair. Combining modern geometric lines with a comfortably padded seat, Oslo Counter & Bar lends playful lines a sophistication with a comfortable footrest that allows the user to sit for hours a day. The Oslo Counter & Bar chair brings an elegant touch to any place in the home, restaurant or workplace.",
+        "images": ["chair2red", "chair2green", "chair2blue"],
+        "price": 350.0
+    },
+    {
+        "name": "Love Body",
+        "category": "chair",
+        "id": 2,
+        "isFavorite": true,
+        "description": "For humans body. When Arne Jacobsen designed the SAS Royal Hotel in Copenhagen in the late 1950s, he also created the Egg, Swan, Swan sofa, 3300 Series and Drop. With this furniture, Arne Jacobsen rewrote the history of Danish design around the world.",
+        "images": ["chair4gray", "chair4blue", "chair4red"],
+        "price": 270.0
+    },
+    {
+        "name": "Egg Footstool",
+        "category": "chair",
+        "id": 3,
+        "isFavorite": false,
+        "description": "The beautiful Egg chair by Arne Jacobsen is made even prettier and slightly more comfortable with the matching footrest. Arne Jacobsen designed Egg for the lobby and reception areas at the SAS Royal Hotel in Copenhagen. Decorate this classic lightweight armchair with a footrest for a homey, comfortable and beautiful experience. When Arne Jacobsen designed the SAS Royal Hotel in Copenhagen in the late 1950s, he also created the Egg, Swan, Swan sofa, 3300 Series and Drop. With this furniture, Arne Jacobsen rewrote the history of Danish design around the world. The casing is made of synthetic material, lined with cold curing foam, covered with fabric or leather. Leg stool without swivel function. The stem is a star-shaped base made of polished satin-finished aluminum, and the tips are made from black nylon.",
+        "images": ["chair3brown", "chair3black", "chair3gray", "chair3orange"],
+        "price": 180.0
+    },
+    {
+        "name": "Gubi Dining Table",
+        "category": "table",
+        "id": 4,
+        "isFavorite": false,
+        "description": "The GUBI dining table was developed in 2013 by Komplot Design. The GUBI dining table is the perfect match for the iconic GUBI 3D chair. This round and organic table retains much of the same design language and aesthetic as the classic plywood chair. The warm wooden Komplot table is the perfect complement to any chair thanks to its classic design.",
+        "images": ["table1brown", "table1black"],
+        "price": 320.0
+    },
+    {
+        "name": "Stub Table",
+        "category": "table",
+        "id": 5,
+        "isFavorite": false,
+        "description": "The elegant coffee table by Danish architect Mette Schelde is a natural blend of materials. This unique design seamlessly blends wood and glass. Inspired by landscapes of wooden stumps, the Stub (which is Danish for tree stump) has a transparent glass circle that floats around the base with no visible screws or fasteners.",
+        "images": ["table5black", "table5brown"],
+        "price": 420.0
+    },
+    {
+        "name": "Circular coffee",
+        "category": "table",
+        "id": 6,
+        "isFavorite": false,
+        "description": "The entire table series was inspired by designer Pete Hein's solution to the road problems at Sergels Torg in Stockholm: a super-elliptical circular motion. This version of the oval had some attractive qualities and looked remarkably harmonious regardless of size. The Table series is nothing less than the best quality, which is why FH also found the best quality laminate flooring. Fenix ​​laminate flooring is extremely scratch resistant, and its matte surface accepts light rather than reflects it. It is very easy to clean and does not leave fingerprints. The table top consists of 22 mm laminated chipboard with laminate or veneer. Laminate is available with an aluminum edge, while the veneer version comes with a wooden edge. The base is chrome-plated steel with a base of 4 or 6 stars (at three heights) in polished satin-finished aluminum.",
+        "images": ["table2brown", "table2white"],
+        "price": 350.0
+    },
+    {
+        "name": "Split Table",
+        "category": "table",
+        "id": 7,
+        "isFavorite": false,
+        "description": "With its distinctive split-legged design, the Split Table can be integrated into any given setting with its oak body filling the room with warmth that exemplifies the essence of Scandinavian design. Solid oak table for private or professional use for dinner, restaurants, meetings, etc. Staffan Holm wanted the table to have an organic expression and combine structural strength with a seemingly subtler balancing action. The split and curved legs detail has the look and feel of a skilled cabinet maker and is likely to become the hallmark of the Split table.",
+        "images": ["table3black", "table3brown"],
+        "price": 280.0
+    },
+    {
+        "name": "Mategot Side Table",
+        "category": "table",
+        "id": 8,
+        "isFavorite": false,
+        "description": "The Matégot coffee table by Mathieu Matego was designed in 1960. The organic expressive form, clear or smoked glass give the table a special chic, this design will suit any modern home. The brass base of this elegant piece contrasts with the visual lightness of the glass top. The Matégot coffee table was created in accordance with the changing style of the time. The combination of glass, brass and leather at the time demonstrated the return of well-being and luxury to the post-war era. Matego began to gradually move away from the asceticism, which is clearly visible in his earlier models made of perforated metal. The Matégot table is more sophisticated and less spartan.",
+        "images": ["table4black", "table4white"],
+        "price": 280.0
+    },
+    {
+        "name": "Stacked Storage System",
+        "category": "cupboard",
+        "id": 9,
+        "isFavorite": false,
+        "description": "Stacked by JDS Architects provides a storage solution with endless potential. Using small clips, you can organize the common blocks as you see fit. Quickly create shelf systems, room dividers or side tables. How to be specific and universal? Shelving systems tend to achieve one of the problems, but never several at once. The designers decided to change the shelving based on the general idea of ​​storage and display shelves, allowing them to be combined according to specific needs and desires. The result could be a random mix of boxes or a coordinated grid of efficient storage ... or both!",
+        "images": ["cupboard1white"],
+        "price": 400.0
+    },
+    {
+        "name": "Planner Shelving",
+        "category": "cupboard",
+        "id": 10,
+        "isFavorite": false,
+        "description": "Designed by Paul McCob, a pioneer of contemporary, democratic design whose creations have infused homes around the world with durable, high-quality design, the Fritz Hansen Planner series of shelves combines its signature graphic aesthetic with an elegant look. This latest design combines the Planner coffee table, mirror, lamp and magazine rack to create a versatile product range for any space.",
+        "images": ["cupboard2brown", "cupboard2white"],
+        "price": 470.0
+    },
+    {
+        "name": "True Love Sofag",
+        "category": "sofa",
+        "id": 11,
+        "isFavorite": true,
+        "description": "The design of the True Love Sofa is very organic. Its compact size makes it versatile and suitable for public spaces with limited space. True Love Sofa is attractive from all angles, making it ideal as a free-standing piece of furniture. The design and technique of the upholstery are very harmonious. The outer and inner parts can be upholstered in different types of textiles and leather, with or without contrast stitching. High quality formed foam.",
+        "images": ["sofa5red"],
+        "price": 1800.0
+    },
+    {
+        "name": "Connect Sofa",
+        "category": "sofa",
+        "id": 12,
+        "isFavorite": true,
+        "description": "With 11 possible elements, the Connect modular system offers the unique opportunity to customize the sofa to your space with a timeless Scandinavian look. Available in the Kvadrat range of textiles, Connect is an ultra-comfortable and luxurious sofa that will bring comfort to your professional or private space. Modular sofa with 11 different modules that can be assembled in different ways. Supplied in various Kvadrat fabrics. The wood frame is padded with cold foam on top with cotton wool. Soft Kvadrat fabric. Material: Wooden frame, cold foam filling, Kvadrat textile, metal brackets for connecting modules. The modules are stored together with the connecting bracket.",
+        "images": ["sofa2gray", "sofa2yellow"],
+        "price": 1300.0
+    },
+    {
+        "name": "Paradiset",
+        "category": "sofa",
+        "id": 13,
+        "isFavorite": false,
+        "description": "Kerstin H. Holmqvist designed the Paradiset upholstery collection for NK - Nordiska Kompaniet in 1956-1957. The first piece in the collection, the feminine Eva armchair, was soon complemented by a masculine counterpart, the Adam armchair. Later, the collection included the Paradiset sofa, designed for 2-3 people. The frame of the sofa is made of beech, the upholstery is handcrafted with buttons. Legs in solid walnut or oiled oak.",
+        "images": ["sofa3gray"],
+        "price": 999.0
+    },
+    {
+        "name": "Saari",
+        "category": "sofa",
+        "id": 14,
+        "isFavorite": false,
+        "description": "Two-legged sofa on four legs in polished, painted or veneered steel. The plywood and metal sofa sink is upholstered in leather, imitation leather, fabric or material that is not part of the standard range provided by the client. On request, the cover can be made completely removable at no additional cost.",
+        "images": ["sofa4blue", "sofa4gray"],
+        "price": 800.0
+    },
+    {
+        "name": "Rest",
+        "category": "sofa",
+        "id": 15,
+        "isFavorite": false,
+        "description": "Rest is a series of sofas with an attractive and warm appearance. The contrast between the back and bottom frames and the cushioned cushion tells the story of comfort that awaits you. Sit back and relax! 100% handmade sofa. Steel base, wood frame, oak wood legs, cold foam (35 / seat, 25 / back) / feather padding, standard fabrics Square. Legs: natural oak or black painted.",
+        "images": ["sofa1pink", "sofa1gray", "sofa1yellow"],
+        "price": 1070.0
+    },
+    {
+        "name": "Modern Tempered Glass",
+        "category": "buffet",
+        "id": 16,
+        "isFavorite": false,
+        "description": "The Enfold sideboard is the introduction of industrial elements into the home. Made of lacquered steel, which fits neatly to the top and bottom of solid oak. The Enfold sideboard combines cold and warm materials to create a unique combination. The structure comes in two sizes: one vertical, one horizontal, with a set of adjustable shelves - the horizontal has two shelves that can be placed on five different levels, while the vertical has one shelf that can be placed on three different levels.",
+        "images": ["buffet3red", "buffet3white"],
+        "price": 1000.0
+    },
+    {
+        "name": "Reflect Sideboards",
+        "category": "buffet",
+        "id": 17,
+        "isFavorite": false,
+        "description": "The design and craftsmanship emphasize the warm and natural feel of oak wood and also convey greetings to the craftsmen of classic Scandinavian furniture making. Available in 3 sizes. Reflect owes its stunning and unique view to the natural light of Scandinavia. The four corners on each front have unique thicknesses and curves that contribute to the play of the boxes with light. Board with oak veneer on top is cut and glued. The front is finished with oak veneer on top. The wood is treated with oil. Material: board with oak veneer. Solid oak legs.",
+        "images": ["buffet1black", "buffet1brown"],
+        "price": 1500.0
+    },
+    {
+        "name": "Reflect Sideboards Long",
+        "category": "buffet",
+        "id": 18,
+        "isFavorite": false,
+        "description": "Reflect owes its stunning and unique view to the natural light of Scandinavia. The four corners on each front have unique thicknesses and curves that contribute to the play of the boxes with light. Board with oak veneer on top is cut and glued. The front is finished with oak veneer on top. The wood is treated with oil. Material: board with oak veneer. Solid oak legs.",
+        "images": ["buffet2brown", "buffet2black"],
+        "price": 2000.0
+    },
+    {
+        "name": "Grossman Dresser",
+        "category": "buffet",
+        "id": 19,
+        "isFavorite": false,
+        "description": "Designed by Greta Grossman (1906-1999) in 1952, the Grossman Dresser 62-series dresser was re-launched by Gubi in 2012. Materials: American walnut body, black high-gloss lacquer on the table top, legs in black painted metal. Made to order. Ball-shaped drawer handles are black. This model has three walnut drawers.",
+        "images": ["buffet4red"],
+        "price": 1999.0
+    }
+]

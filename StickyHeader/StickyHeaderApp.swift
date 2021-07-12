@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct StickyHeaderApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home(viewModel: ViewModel())
         }
     }
 }

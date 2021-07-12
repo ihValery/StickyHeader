@@ -19,16 +19,16 @@ struct CardView: View {
                     .foregroundColor(.gray)
                     .font(.caption)
                     .lineLimit(3)
-                Text("$\(furniture.price)")
+                Text("$\(furniture.price).0")
                     .fontWeight(.bold)
             }
             Spacer()
             
-            Image(furniture.image)
+            Image(furniture.images.first!)
                 .resizable()
                 .scaledToFill()
                 .frame(width: 130, height: 130)
-                .cornerRadius(13)
+//                .cornerRadius(13)
         }
         .padding(.leading)
         .foregroundColor(.purpleApp)
@@ -40,6 +40,7 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        Home()
+        let fur = furnitures[0]
+        CardView(furniture: fur)
     }
 }
