@@ -8,4 +8,4 @@
 - GeometryReader .frame(in: .global).minY
 - ScrollViewReader для автоматической смены tabCategory
 
-<img src="?raw=true"></a>
+<img src="https://github.com/ihValery/StickyHeader/blob/main/Image/Simulator%20Screen%20Recording%20-%20iPhone%2012%20Pro%20-%202021-07-12%20at%2023.09.37.gif?raw=true"></a>
